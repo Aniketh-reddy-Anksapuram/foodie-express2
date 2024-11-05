@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieExpress - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FoodieExpress</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="delivery.html">Food Delivery</a></li>
+                <li><a href="menu.html">Food Menu</a></li>
+                <li><a href="#" id="cart-icon">🛒 <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h1>About </h1>
+            <img src="/inages/foodie 2.jpeg" alt="FoodieExpress Team" class="about-image">
+            <p>FoodieExpress is your go-to platform for quick and delicious food delivery. We partner with the best local restaurants to bring you a wide variety of cuisines right to your doorstep.</p>
+            <p>Our mission is to make food ordering convenient, fast, and enjoyable. Whether you're craving comfort food, healthy options, or exotic dishes, we've got you covered.</p>
+            <p>Founded in 2023, FoodieExpress has quickly become a favorite among food lovers for its reliability, diverse options, and excellent customer service.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+</body>
+</html>
